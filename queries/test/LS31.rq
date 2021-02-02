@@ -1,4 +1,0 @@
-SELECT ?Drug ?IntDrug ?IntEffect WHERE {
-    ?Drug <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Drug> .
-    ?y <http://www.w3.org/2002/07/owl#sameAs> ?Drug .
-}

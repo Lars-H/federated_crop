@@ -1,6 +1,0 @@
-select * where {
-?d2 <http://dbpedia.org/property/proteinBound> ?k1.
-?d2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Drug>.
-?d1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Antibody115027189>.
-?d1 <http://dbpedia.org/property/target> ?k1.
-}

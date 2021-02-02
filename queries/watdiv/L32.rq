@@ -1,4 +1,0 @@
-SELECT * WHERE { 
-	?v0 <http://db.uwaterloo.ca/~galuc/wsdbm/likes> ?v1 .
-	?v0 <http://db.uwaterloo.ca/~galuc/wsdbm/subscribes> <http://db.uwaterloo.ca/~galuc/wsdbm/Website361> .
- }

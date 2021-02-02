@@ -1,0 +1,18 @@
+version: "3"
+timeout: 120
+federation:
+  dbpedia: "sparql@http://dbpedia.org/sparql"
+  drugbank: "sparql@<url to endpoint>"
+  kegg: "sparql@<url to endpoint>"
+  chebi: "sparql@<url to endpoint>"
+  geonames: "sparql@<url to endpoint>"
+  jamendo: "sparql@<url to endpoint>"
+  nytimes: "sparql@<url to endpoint>"
+  swdf: "sparql@<url to endpoint>"
+  linkedmdb: "sparql@<url to endpoint>"
+
+statistics:
+  predicates:
+    cspf/p2s-complete_top_10000.json
+  characteristic_sets:
+    cspf/s2cs-complete_top_10000.json

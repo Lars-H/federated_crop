@@ -1,4 +1,0 @@
-SELECT ?film ?director ?genre WHERE {
-?film <http://dbpedia.org/ontology/director>  ?director .
-?director <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Italy> .
-}
