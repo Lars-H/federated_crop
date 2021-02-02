@@ -1,0 +1,8 @@
+SELECT DISTINCT *
+WHERE
+{
+  ?x <http://www.wikidata.org/prop/direct/P39> <http://www.wikidata.org/entity/Q11696> .
+  ?x <http://www.wikidata.org/prop/direct/P102> ?party .
+  ?y <http://www.w3.org/2002/07/owl#sameAs> ?x .
+  ?y <http://dbpedia.org/ontology/successor> ?branch .
+}

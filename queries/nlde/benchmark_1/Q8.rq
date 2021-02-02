@@ -1,0 +1,8 @@
+select * where {
+?d1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Song>.
+?d1 <http://dbpedia.org/property/producer> ?o1.
+?d1 <http://dbpedia.org/property/album> ?o2.
+?d2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>.
+?d2 <http://dbpedia.org/property/name> ?o1.
+?d2 <http://purl.org/dc/terms/subject> ?o3.
+}

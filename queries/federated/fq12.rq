@@ -1,0 +1,17 @@
+SELECT ?x
+WHERE
+{
+ {
+    <http://www.wikidata.org/entity/Q458>  <http://www.wikidata.org/prop/direct/P150> ?x .
+ }
+ UNION
+ {
+    {
+    <http://www.wikidata.org/entity/Q4397930>  ?p ?x .
+    }
+    UNION
+    {
+    <http://www.wikidata.org/entity/Q4397931>  ?p ?x .
+    }
+ }
+}

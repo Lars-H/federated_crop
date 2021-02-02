@@ -1,0 +1,3 @@
+SELECT * WHERE {
+    <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00201> ?predicate ?object .
+}

@@ -1,0 +1,142 @@
+SELECT  *
+WHERE
+{
+    {
+    SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8898/sparql>
+        {
+            ?film <http://purl.org/dc/terms/title> "Tarzan" .
+            ?film <http://data.linkedmdb.org/resource/movie/actor> ?actor .
+        }
+    }
+    {
+    {
+        SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8890/sparql>
+        {
+            ?y <http://data.nytimes.com/elements/topicPage> ?news .
+        }
+    }
+    UNION
+    {
+        SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8891/sparql>
+        {
+            ?y <http://data.nytimes.com/elements/topicPage> ?news .
+        }
+    }
+    UNION
+    {
+        SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8892/sparql>
+        {
+            ?y <http://data.nytimes.com/elements/topicPage> ?news .
+        }
+    }
+    UNION
+    {
+        SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8893/sparql>
+        {
+            ?y <http://data.nytimes.com/elements/topicPage> ?news .
+        }
+    }
+    UNION
+    {
+        SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8894/sparql>
+        {
+            ?y <http://data.nytimes.com/elements/topicPage> ?news .
+        }
+    }
+    UNION
+    {
+        SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8895/sparql>
+        {
+            ?y <http://data.nytimes.com/elements/topicPage> ?news .
+        }
+    }
+    UNION
+    {
+        SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8896/sparql>
+        {
+            ?y <http://data.nytimes.com/elements/topicPage> ?news .
+        }
+    }
+    UNION
+    {
+        SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8897/sparql>
+        {
+            ?y <http://data.nytimes.com/elements/topicPage> ?news .
+        }
+    }
+        UNION
+        {
+            SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8898/sparql>
+            {
+                ?y <http://data.nytimes.com/elements/topicPage> ?news .
+            }
+    }}
+    {{
+        SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8890/sparql>
+        {
+            ?y <http://www.w3.org/2002/07/owl#sameAs> ?x .
+        }
+    }
+    UNION
+    {
+        SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8892/sparql>
+        {
+            ?y <http://www.w3.org/2002/07/owl#sameAs> ?x .
+        }
+    }
+    UNION
+    {
+        SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8894/sparql>
+        {
+            ?y <http://www.w3.org/2002/07/owl#sameAs> ?x .
+        }
+    }
+    UNION
+    {
+        SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8895/sparql>
+        {
+            ?y <http://www.w3.org/2002/07/owl#sameAs> ?x .
+        }
+    }
+        UNION
+        {
+            SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8898/sparql>
+            {
+                ?y <http://www.w3.org/2002/07/owl#sameAs> ?x .
+            }
+    }}
+    {{
+        SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8890/sparql>
+        {
+            ?actor <http://www.w3.org/2002/07/owl#sameAs> ?x .
+        }
+    }
+    UNION
+    {
+        SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8892/sparql>
+        {
+            ?actor <http://www.w3.org/2002/07/owl#sameAs> ?x .
+        }
+    }
+    UNION
+    {
+        SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8894/sparql>
+        {
+            ?actor <http://www.w3.org/2002/07/owl#sameAs> ?x .
+        }
+    }
+    UNION
+    {
+        SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8895/sparql>
+        {
+            ?actor <http://www.w3.org/2002/07/owl#sameAs> ?x .
+        }
+    }
+        UNION
+        {
+            SERVICE <http://aifb-ls3-remus.aifb.kit.edu:8898/sparql>
+            {
+                ?actor <http://www.w3.org/2002/07/owl#sameAs> ?x .
+            }
+    }}
+}

@@ -1,3 +1,23 @@
+# Not virtaul environment
+venv/*
+
+# PyCharm
+.idea/*
+
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+/logs/
+/stats/
+/scripts/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

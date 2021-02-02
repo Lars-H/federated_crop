@@ -1,0 +1,7 @@
+SELECT *
+WHERE
+{
+?d1 <http://www.w3.org/2000/01/rdf-schema#label> "Stanford University"@en .
+?d2 <http://dbpedia.org/ontology/almaMater> ?d1.
+?d2 <http://dbpedia.org/ontology/doctoralAdvisor> ?o4 .
+}

@@ -1,0 +1,7 @@
+select * where {
+?d1 <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Hereditary_cancers>.
+?d1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://umbel.org/umbel/rc/AilmentCondition>.
+?d1 <http://dbpedia.org/property/diseasesdb> ?o.
+?d1 <http://dbpedia.org/property/name> ?n.
+?d1 <http://dbpedia.org/ontology/icd9> ?g.
+}

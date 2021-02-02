@@ -1,0 +1,4 @@
+SELECT * WHERE {
+    <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00201> <http://www.w3.org/2002/07/owl#sameAs> ?caff .
+    ?caff ?predicate ?object .
+}

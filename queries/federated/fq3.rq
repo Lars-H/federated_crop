@@ -1,0 +1,6 @@
+SELECT ?x ?y
+WHERE
+{
+  ?x <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q6256> .
+  ?y <http://www.w3.org/2002/07/owl#sameAs> ?x .
+}

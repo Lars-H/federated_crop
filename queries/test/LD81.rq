@@ -1,0 +1,5 @@
+SELECT DISTINCT * WHERE {
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugCategory> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugcategory/micronutrient> .
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/casRegistryNumber> ?id .
+?drug <http://www.w3.org/2002/07/owl#sameAs> ?s .
+}

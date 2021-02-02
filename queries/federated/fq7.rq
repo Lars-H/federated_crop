@@ -1,0 +1,8 @@
+SELECT *
+WHERE
+{
+  ?x <http://dbpedia.org/ontology/capital> <http://dbpedia.org/resource/Berlin> .
+  ?y <http://www.w3.org/2002/07/owl#sameAs> ?x .
+  ?y <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat .
+  ?y <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long .
+}

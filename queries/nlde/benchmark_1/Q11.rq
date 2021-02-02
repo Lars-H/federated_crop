@@ -1,0 +1,7 @@
+select *  where {
+?d1 <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Living_people>.
+?d1 <http://dbpedia.org/property/name> ?o1.
+?d1 <http://dbpedia.org/property/instrument> ?o3.
+?d2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicGroup>.
+?d2 <http://xmlns.com/foaf/0.1/givenName> ?o1.
+}

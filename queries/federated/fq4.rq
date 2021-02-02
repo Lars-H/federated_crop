@@ -1,0 +1,10 @@
+SELECT *
+WHERE
+{
+  ?x <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q6256> .
+  ?y <http://www.w3.org/2002/07/owl#sameAs> ?x .
+  ?y <http://www.w3.org/2000/01/rdf-schema#label> ?label .
+  ?y <http://dbpedia.org/ontology/leader> ?leader .
+  ?y <http://dbpedia.org/ontology/capital> ?capital .
+  ?y <http://dbpedia.org/ontology/populationTotal> ?pop .
+}

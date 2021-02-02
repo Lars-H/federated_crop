@@ -1,0 +1,5 @@
+SELECT DISTINCT * WHERE {
+?n <http://www.w3.org/2004/02/skos/core#subject> <http://dbpedia.org/resource/Category:Chancellors_of_Germany> .
+?n <http://www.w3.org/2002/07/owl#sameAs> ?p2 .
+?p2 <http://data.nytimes.com/elements/latest_use> ?u .
+}
