@@ -4,6 +4,8 @@ venv/*
 # PyCharm
 .idea/*
 
+# Local Config
+config.yaml
 
 # OS generated files
 .DS_Store

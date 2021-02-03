@@ -64,6 +64,9 @@ def get_request_count(query_id):
 
 def execute_crop(**kwargs):
 
+    if not os.path.exists('logs'):
+        os.makedirs('logs')
+
     print_results = True if kwargs.get("printres") == "y" else False
 
     logger = logging.getLogger("nlde_logger")

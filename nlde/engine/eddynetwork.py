@@ -12,7 +12,6 @@ from nlde.query.sparql_parser import parse
 from crop.query_plan_optimizer.idp_optimizer import IDP_Optimizer
 from crop.query_plan_optimizer.federated_optimizer import Federated_Optimizer
 from crop.query_plan_optimizer.nlde_optimizer import nLDE_Optimizer
-from crop.query_plan_optimizer.ldff_optimizer import LDFF_Optimizer
 from nlde.operators.operatorstructures import Tuple
 from nlde.policy.nopolicy import NoPolicy
 from multiprocessing import Process, Queue, active_children

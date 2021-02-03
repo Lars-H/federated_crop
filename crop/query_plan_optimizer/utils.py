@@ -1,4 +1,3 @@
-from crop.query_plan_optimizer.ldff_optimizer import LDFF_Optimizer
 from crop.query_plan_optimizer.nlde_optimizer import nLDE_Optimizer
 from crop.query_plan_optimizer.idp_optimizer import IDP_Optimizer
 from crop.costmodel.crop_cost_model import CropCostModel
@@ -28,12 +27,6 @@ def get_optimizer(**kwargs):
                                        robustness_threshold=robustness_threshold, cost_threshold=cost_threshold)
     elif optimizer_name == "nlde":
         optimizer = nLDE_Optimizer(sources=sources, eddies=n_eddy)
-
-    elif optimizer_name == "ldff":
-        pbj = kwargs.get("pbj") != "False"
-        decomposer =  kwargs.get("decomposer") != "False"
-        prune_sources = kwargs.get("prune_sources") != "False"
-        optimizer = LDFF_Optimizer(sources=sources, eddies=n_eddy, pbj=pbj, decomposer=decomposer, pruning=prune_sources)
 
     else:
         raise Exception("Invalid Optimizer Option")
